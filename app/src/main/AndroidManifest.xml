@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arbaelbarca.trainingclassintermediate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TrainingClassIntermediate">
+        <activity
+            android:name=".LocalChaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParentLifeCycleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParentLifeCycleFragment"
+            android:exported="false"
+            android:label="@string/title_activity_parent_life_cycle_fragment"
+            android:theme="@style/Theme.TrainingClassIntermediate.NoActionBar" />
+        <activity
+            android:name=".LifeCycleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainNavigationDrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main_navigation_drawer"
+            android:theme="@style/Theme.TrainingClassIntermediate.NoActionBar" />
+        <activity
+            android:name=".ScrolllViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AllMenuButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainTabLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainNavigationViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserFormUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

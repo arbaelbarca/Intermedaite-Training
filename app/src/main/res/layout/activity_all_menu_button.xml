@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_10sdp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AllMenuButtonActivity">
+
+    <Button
+        android:id="@+id/btnNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bottom Navigation View"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btnTanLayoutView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tab Layout View"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btnScroolView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ScrollView"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btnNavDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation Drawer"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btnActionActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LifeCycle Activity"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btnActionFragmnet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LifeCycle Fragment"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btnActivityLocalChace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity Local Chace"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+</LinearLayout>
