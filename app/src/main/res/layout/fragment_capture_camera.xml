@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CaptureCameraActivity">
+
+
+    <ImageView
+        android:id="@+id/imgCaptureView"
+        android:layout_width="match_parent"
+        android:src="@drawable/messi"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_margin="@dimen/_10sdp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnFromCamera"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="Capture From Camera" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnFromGalery"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="Capture From Galery" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnFromDocument"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="Capture From Document" />
+</LinearLayout>

@@ -73,4 +73,15 @@ dependencies {
     //circleimage
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
+    //easyimage
+    implementation 'com.github.jkwiecien:EasyImage:3.0.4'
+
+    //dexter
+    implementation 'com.karumi:dexter:6.2.1'
+
+    //RoomDb
+
+    implementation("androidx.room:room-runtime:2.4.2")
+    kapt "androidx.room:room-compiler:2.4.2"
+//    annotationProcessor("androidx.room:room-compiler:2.4.2")
 }

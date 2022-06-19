@@ -15,6 +15,8 @@ class AllMenuButtonActivity : AppCompatActivity() {
     lateinit var btnLifeCycleActivity: Button
     lateinit var btnLifeCycleFragment: Button
     lateinit var btnToLocalChace: Button
+    lateinit var btnCaptureCamera: Button
+    lateinit var btnCrudRoom: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,11 +29,23 @@ class AllMenuButtonActivity : AppCompatActivity() {
         btnLifeCycleActivity = findViewById(R.id.btnActionActivity)
         btnLifeCycleFragment = findViewById(R.id.btnActionFragmnet)
         btnToLocalChace = findViewById(R.id.btnActivityLocalChace)
+        btnCaptureCamera = findViewById(R.id.btnCaptureCamera)
+        btnCrudRoom = findViewById(R.id.btnCrudRoom)
 
         initOnClick()
     }
 
     fun initOnClick() {
+
+        btnCrudRoom.setOnClickListener {
+            val intent = Intent(this, FormMahasiswaActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnCaptureCamera.setOnClickListener {
+            val intent = Intent(this, MainCaptureCameraActivity::class.java)
+            startActivity(intent)
+        }
         btnNavPage.setOnClickListener {
             val intent = Intent(this, MainNavigationViewActivity::class.java)
             startActivity(intent)

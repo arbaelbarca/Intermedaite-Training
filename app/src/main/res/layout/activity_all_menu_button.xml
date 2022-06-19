@@ -65,4 +65,22 @@
         android:text="Activity Local Chace"
         android:textColor="@color/white"
         android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btnCaptureCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture Camera"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btnCrudRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crud Room"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+
 </LinearLayout>
