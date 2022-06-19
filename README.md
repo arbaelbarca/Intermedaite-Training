@@ -22,7 +22,7 @@ With api : https://web-api-test1.herokuapp.com/users
 2. LifeCycle Fragment
 
 
-# Local Chace
+# Local Cache
 
 1. Shared Preferences
 
