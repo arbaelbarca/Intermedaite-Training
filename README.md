@@ -2,7 +2,7 @@
 Training Intermediate
 
 
-Corse Learning
+Course Learning
 
 # Crud Api 
 
