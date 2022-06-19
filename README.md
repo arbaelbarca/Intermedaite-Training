@@ -8,6 +8,13 @@ Course Learning
 
 With api : https://web-api-test1.herokuapp.com/users
 
+Tech Rest : 
+
+1. Retrofit
+2. HttpLogging
+3. Interceptor OKhttpClient
+
+
 # View Component & Widget
 
 1. Bottom Navigation View
