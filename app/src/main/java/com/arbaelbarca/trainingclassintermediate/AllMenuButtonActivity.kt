@@ -38,7 +38,7 @@ class AllMenuButtonActivity : AppCompatActivity() {
     fun initOnClick() {
 
         btnCrudRoom.setOnClickListener {
-            val intent = Intent(this, FormMahasiswaActivity::class.java)
+            val intent = Intent(this, ListRoomActivity::class.java)
             startActivity(intent)
         }
 

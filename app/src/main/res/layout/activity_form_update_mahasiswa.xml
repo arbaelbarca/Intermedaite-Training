@@ -8,7 +8,7 @@
     tools:context=".FormMahasiswaActivity">
 
     <EditText
-        android:id="@+id/edInputNamaMahasiswa"
+        android:id="@+id/edInputUpdateNamaMahasiswa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_10sdp"
@@ -17,7 +17,7 @@
         android:hint="Input Nama" />
 
     <EditText
-        android:id="@+id/edInputUsernameMahasiswa"
+        android:id="@+id/edInputUpdateUsernameMahasiswa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_10sdp"
@@ -26,23 +26,13 @@
         android:hint="Input Username" />
 
     <EditText
-        android:id="@+id/edInputEmailMahasiswa"
+        android:id="@+id/edInputUpdateEmailMahasiswa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_10sdp"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginEnd="@dimen/_10sdp"
         android:hint="Input Email" />
-
-
-    <Button
-        android:id="@+id/btnSaveDataMahasiswa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_15sdp"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginEnd="@dimen/_15sdp"
-        android:text="Save Data" />
 
     <Button
         android:id="@+id/btnUpdateData"
@@ -52,14 +42,5 @@
         android:layout_marginTop="@dimen/_10sdp"
         android:layout_marginEnd="@dimen/_15sdp"
         android:text="Update Data" />
-
-    <Button
-        android:id="@+id/btnDeleteData"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_15sdp"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginEnd="@dimen/_15sdp"
-        android:text="Delete Data" />
 
 </LinearLayout>
